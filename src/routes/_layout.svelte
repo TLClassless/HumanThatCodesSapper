@@ -61,6 +61,7 @@ main {
 /* background animation */
 
 main {
+  height: 100%;
 	color: #fff;
 }
 
