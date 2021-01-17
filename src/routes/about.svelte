@@ -1,3 +1,18 @@
+
+<script>
+	import { BackIco } from "../js/img.js";
+	let HTMLang = "../img/html.svg";
+	let CSSheets = "../img/css.svg";
+	let JS = "../img/javascript.svg";
+	let PHP = "../img/php.svg";
+	let Git = "../img/git.svg";
+	let SvelteLang = "../img/svelte.png";
+	let NPManager = "../img/npm.svg";
+	let Framework7 = "../img/framework7.svg";
+	let GithubTxt = "../img/github-txt.svg";
+	let Adobe = "../img/adobe.svg";
+</script>
+
 <svelte:head>
 	<link rel="icon" type="image/png" href="about-favicon.png">
 	<title>A Little About Me</title>
@@ -33,9 +48,35 @@
 			>message</a>
 		or <a href="mailto: benbuckley94@gmail.com">email</a> me!
 		</p>
+
+		<div class="lang">
+			<img src={HTMLang} alt="HTML">
+			<img src={CSSheets} alt="CSS">
+			<img src={JS} alt="JS">
+			<img src={PHP} alt="PHP">
+			<img src={Git} alt="Git">
+			<img src={SvelteLang} alt="Svelte">
+			<img src={NPManager} alt="NPM">
+			<img src={Framework7} alt="Framework7">
+			<img src={GithubTxt} alt="Github">
+			<img src={Adobe} alt="Adobe Creative Cloud">
+		</div>
 	</div>
+
 </main>
 <style>
+
+	.lang {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+		align-content: space-between;
+	}
+
+	.lang img {
+		margin: 10pt;
+	}
 
 	main {
 		width: 100%;
@@ -44,12 +85,13 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-		font-size: 26pt;
+		font-size: 20pt;
 		font-weight: 700;
     }
 
 	.main-zone {
 		width: 80%;
+		height: 100%;
 	}
 
 	img {
@@ -91,7 +133,3 @@
     }
 
 </style>
-
-<script>
-	import { BackIco } from "../js/img.js";
-</script>

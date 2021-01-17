@@ -1,6 +1,6 @@
 {
-  "name": "TODO",
-  "description": "TODO",
+  "name": "Portfolio",
+  "description": "Personal Portfolio Website 2021",
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev",

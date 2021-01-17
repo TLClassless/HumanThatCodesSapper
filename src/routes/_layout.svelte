@@ -61,8 +61,11 @@ main {
 /* background animation */
 
 main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 100%;
-	color: #fff;
+  color: #fff;
 }
 
 </style>
