@@ -30,7 +30,6 @@ let word = "";
 let i = 0;
 
 (function loop() {
-  console.log(i);
   word = words[i];
   if (++i) {
     setTimeout(loop, 4000);
@@ -39,9 +38,6 @@ let i = 0;
     i = 0;
   }
 })();
-
-console.log(word);
-
 
 </script>
 
@@ -70,6 +66,7 @@ console.log(word);
 <style>
     .links img {
         height: 50pt;
+        margin: 10pt;
     }
 
     main {
@@ -101,8 +98,6 @@ console.log(word);
 
   #one {
     text-align: center;
-    transition: all 1s;
-    -moz-transition: all 1s;
   }
 
   
