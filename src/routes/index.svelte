@@ -45,9 +45,13 @@ console.log(word);
 
 </script>
 
+<svelte:head>
+	<title>{word}, I'm Ben</title>
+</svelte:head>
+
 <main>
-    <h1 class="intro">
-        {word} I'm <a href="http://github.com/TLClassless">Ben!</a>
+    <h1 id="one" class="intro">
+        <span id="word">{word}</span> I'm <a href="http://github.com/TLClassless">Ben!</a>
     </h1>
     <h1 class="intro">
         I'm a Web 
@@ -83,6 +87,7 @@ console.log(word);
 		font-size: 50pt;
 		font-weight: 700;
 		width: 80%;
+
     }
 
     .intro a {
@@ -92,9 +97,13 @@ console.log(word);
 	
 	.intro :hover {
 		text-decoration: underline;
-		transition: ease all 1s;
-		-moz-transition: all 1s;
 	}
 
+  #one {
+    text-align: center;
+    transition: all 1s;
+    -moz-transition: all 1s;
+  }
 
+  
 </style>
