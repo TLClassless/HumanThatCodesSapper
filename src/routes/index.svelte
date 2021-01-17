@@ -42,6 +42,7 @@ let i = 0;
 </script>
 
 <svelte:head>
+  <link rel="icon" type="image/png" href="home-favicon.png">
 	<title>{word}, I'm Ben</title>
 </svelte:head>
 
@@ -99,6 +100,33 @@ let i = 0;
   #one {
     text-align: center;
   }
+
+  #word {
+    text-decoration: none;
+  }
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: transparent;
+  -webkit-text-stroke: 2px #fff;
+}
+
+@supports not(-webkit-text-stroke: 2px #fff) {
+  a:hover {
+    text-shadow:
+      3px 3px 0 #fff,
+      -1px -1px 0 #fff,
+      1px -1px 0 #fff,
+      -1px 1px 0 #fff,
+      1px 1px 0 #fff;
+  }
+}
+
+
 
   
 </style>

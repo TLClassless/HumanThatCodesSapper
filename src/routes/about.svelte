@@ -1,5 +1,6 @@
 <svelte:head>
-	<title>About</title>
+	<link rel="icon" type="image/png" href="about-favicon.png">
+	<title>A Little About Me</title>
 </svelte:head>
 
 <h1>About this site</h1>
