@@ -11,6 +11,8 @@
 	let Framework7 = "../img/framework7.svg";
 	let GithubTxt = "../img/github-txt.svg";
 	let Adobe = "../img/adobe.svg";
+	let Wordpress = "../img/wordpress.png";
+	let Gitkraken = "../img/gitkraken.png";
 </script>
 
 <svelte:head>
@@ -56,7 +58,9 @@
 			<img src={PHP} alt="PHP">
 			<img src={Git} alt="Git">
 			<img src={SvelteLang} alt="Svelte">
+			<img src={Wordpress} alt="Wordpress">
 			<img src={NPManager} alt="NPM">
+			<img src={Gitkraken} alt="Gitkraken">
 			<img src={Framework7} alt="Framework7">
 			<img src={GithubTxt} alt="Github">
 			<img src={Adobe} alt="Adobe Creative Cloud">
