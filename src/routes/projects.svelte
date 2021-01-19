@@ -7,19 +7,15 @@
     import { BackIco } from "../js/img.js";
 </script>
 
-<main class="about-body">
-    <span class="about-head">
+<main>
+    <span class="head">
         <a href="/"><img src={BackIco} alt="Go Back" /></a>
+        <span class="br"></span>
         <h3>Some projects I've been working on:</h3>
     </span>
-    <span class="about-toggles">
-        <p>All</p>
-        <p class="proj-break">|</p>
-        <p>Projects</p>
-        <p class="proj-break">|</p>
-        <p>Experiments</p>
+    <span class="toggles">
+        <p>(Hover a project for more information and links to live sites & github repositories)</p>
     </span>
-    <div id="portfolio" class="home">
       <ul class="portfolio-body">
         <li id="proj0" class="portfolio-item">
           <div class="proj-on-hover">
@@ -140,24 +136,32 @@
         <!-- <li id="proj5" class="portfolio-item"></li>
         <li id="proj6" class="portfolio-item"></li> -->
       </ul>
-    </div>
   </main>
-
+  
   <style>
 
-      .about-head img {
-          height: 50pt;
+      .head img {
+          height: 40pt;
       }
 
-      .about-head {
+      .head {
           display: flex;
           flex-direction: row;
+          justify-content: center;
+          align-items: center;
       }
 
-        .proj-break {
-        margin-left: 10pt;
-        margin-right: 10pt;
-        }
+      .head h3 {
+          font-weight: 700;
+          margin: 0;
+      }
+
+      .toggles {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+      }
 
         .portfolio-body {
         display: flex;
@@ -360,5 +364,13 @@
 
         #unfinished {
         opacity: 40%;
+        }
+
+        .br {
+          width: 20pt;
+        }
+
+        a {
+          line-height: 0;
         }
   </style>

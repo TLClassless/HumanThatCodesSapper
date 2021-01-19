@@ -70,6 +70,10 @@
 </main>
 <style>
 
+	p {
+		font-size: 14pt;
+	}
+
 	.lang {
 		display: flex;
 		flex-direction: row;
@@ -89,7 +93,6 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-		font-size: 20pt;
 		font-weight: 700;
     }
 
@@ -113,11 +116,13 @@
 
 	.title h3 {
 		font-weight: 700;
+		margin: 0;
 	}
 
 	a {
       color: #fff;
-      text-decoration: none;
+	  text-decoration: none;
+	  line-height: 0;
     }
 
     a:hover {

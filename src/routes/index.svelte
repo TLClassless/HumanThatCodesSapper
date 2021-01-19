@@ -91,10 +91,8 @@ let i = 0;
 
     .intro {
       margin: 0 0 20pt 0;
-      font-size: 50pt;
       font-weight: 700;
       width: 80%;
-
     }
 
     .intro a {
