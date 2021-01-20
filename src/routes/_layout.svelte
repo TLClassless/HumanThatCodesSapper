@@ -1,5 +1,4 @@
 <script>
-	import Nav from '../components/Nav.svelte';
 </script>
 
 <style>
@@ -10,8 +9,9 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100%;
   color: #fff;
+  height: 100%;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 </style>

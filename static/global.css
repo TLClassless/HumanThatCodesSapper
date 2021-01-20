@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap");
+
 /* background animation */
 
 html {
@@ -58,6 +60,7 @@ html {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-family: "Noto-Sans";
 }
 
 h1 {
