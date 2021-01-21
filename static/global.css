@@ -97,4 +97,24 @@ h6 {
   body {
     font-size: 16px;
   }
+
+  h1 {
+    font-size: 30pt;
+  }
+
+  h2 {
+    font-size: 25pt;
+  }
+
+  h3,
+h4,
+h5,
+h6 {
+  font-size: 20pt;
+}
+
+p {
+  font-size: 10pt;
+}
+
 }
