@@ -54,8 +54,8 @@ let i = 0;
         I'm a Web 
         <a href="https://github.com/TLClassless">Developer</a> & 
         <a href="https://dribbble.com/TLClassless">Designer</a> from the North West of England, feel free to 
-        <a href="mailto: benbuckley94@gmail.com">get in touch,</a> or check out 
-        <a href="projects">some of my projects</a>
+        <a href="mailto: benbuckley94@gmail.com">get in touch,</a> or <a href="projects"> check out 
+        some of my projects</a>
     </h1>
     <div class="links">
         <a href="https://github.com/TLClassless"><img src={Github} alt="github" /></a>
@@ -128,5 +128,4 @@ let i = 0;
           1px 1px 0 #fff;
       }
     }
-  
 </style>
