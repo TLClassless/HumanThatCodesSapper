@@ -71,7 +71,7 @@
 <style>
 
 	p {
-		font-size: 14pt;
+		font-size: 20pt;
 	}
 
 	.lang {
@@ -127,10 +127,10 @@
 
     a:hover {
       color: transparent;
-      -webkit-text-stroke: 2px #fff;
+      -webkit-text-stroke: 1px #fff;
     }
 
-    @supports not(-webkit-text-stroke: 2px #fff) {
+    @supports not(-webkit-text-stroke: 1px #fff) {
       a:hover {
         text-shadow:
           3px 3px 0 #fff,

@@ -39,7 +39,7 @@
   
           <img src="img/portfolio/odyssey.png" alt="site icon"/>
           <h2>Odyssey</h2>
-          <p>Hybrid App (Svelte/Cordova)</p>
+          <p class="proj-type">Hybrid App (Svelte/Cordova)</p>
         </li>
   
         <li id="proj1" class="portfolio-item">
@@ -62,7 +62,7 @@
           </div>
           <img src="img/portfolio/inspo.png" alt="site icon"/>
           <h2>iNspo</h2>
-          <p>PWA (Svelte)</p>
+          <p class="proj-type">PWA (Svelte)</p>
         </li>
   
         <li id="proj2" class="portfolio-item">
@@ -84,7 +84,7 @@
           </div>
           <img src="img/portfolio/stratroulette.png" alt="site icon"/>
           <h2>Strat Roulette</h2>
-          <p>Website (React)</p>
+          <p class="proj-type">Website (React)</p>
         </li>
   
         <li id="proj3" class="portfolio-item">
@@ -108,7 +108,7 @@
           </div>
           <img id="tlico" src="img/portfolio/tlf-ico.svg" alt="site icon"/>
           <h2>Top Left</h2>
-          <p>Website (HTML/CSS/JS)</p>
+          <p class="proj-type">Website (HTML/CSS/JS)</p>
         </li>
 
         <li id="proj4" class="portfolio-item">
@@ -131,7 +131,7 @@
               </div>
               <img id="tlico" src="../img/portfolio/carpet-and-oven.svg" alt="site icon"/>
               <h2>Carpet & Oven Wizard</h2>
-              <p>Website (HTML/CSS/JS)</p>
+              <p class="proj-type">Website (HTML/CSS/JS)</p>
         </li>
         <!-- <li id="proj5" class="portfolio-item"></li>
         <li id="proj6" class="portfolio-item"></li> -->
@@ -139,6 +139,10 @@
   </main>
   
   <style>
+
+      ul {
+        padding: 0;
+      }
 
       .head img {
           height: 40pt;
@@ -174,8 +178,8 @@
         .portfolio-item {
         display: flex;
         flex-direction: column;
-        height: 250px;
-        width: 400px;
+        height: 300px;
+        width: 300px;
         background-color: #0074d9;
         color: #fff;
         border-radius: 20px;
@@ -206,8 +210,8 @@
         }
 
         .proj-on-hover-bg {
-        width: 400px;
-        height: 250px;
+        width: 300px;
+        height: 300px;
         overflow: hidden;
         border-radius: 20px;
         display: flex;
@@ -223,8 +227,8 @@
         }
 
         .proj-on-hover {
-        width: 400px;
-        height: 250px;
+        width: 300px;
+        height: 300px;
         overflow: hidden;
         border-radius: 20px;
         display: flex;
@@ -251,6 +255,7 @@
         .proj-description {
         text-align: center;
         padding: 10px;
+        font-size: 12pt;
         }
 
         .proj-on-hover-bg:hover {
@@ -373,4 +378,20 @@
         a {
           line-height: 0;
         }
+
+        .proj-type {
+          font-size: 12pt;
+        }
+
+        h2 {
+          text-align: center;
+          font-size: 20pt;
+        }
+
+        @media (max-width: 700px) {
+          h2 {
+            font-size: 15pt;
+          }
+        }
+
   </style>

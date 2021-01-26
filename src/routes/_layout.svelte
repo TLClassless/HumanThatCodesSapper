@@ -14,6 +14,12 @@ main {
   font-family: 'Noto Sans', sans-serif;
 }
 
+@media (max-width: 700px) {
+  main {
+    height: auto;
+  }
+}
+
 </style>
 
 
