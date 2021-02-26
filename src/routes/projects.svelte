@@ -115,9 +115,9 @@
             <div class="proj-on-hover">
                 <div class="proj-on-hover-bg">
                   <p class="proj-description">
-                    A website made for the Streaming group "Top Left eSports", website
-                    is made to showcase their individual and group streams and give
-                    some background on the group.
+                    A website made for a Carpet & Oven Cleaning specialist, the
+                    website is made to be a business front to give contact info & details to
+                    potential clients.
                   </p>
                   <p class="proj-imgs">
                     <a href="projects"><img id ="unfinished" src="img/github.svg" alt="github"

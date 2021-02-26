@@ -128,4 +128,10 @@ let i = 0;
           1px 1px 0 #fff;
       }
     }
+
+    @media (max-width: 700px) {
+          h1 {
+            font-size: 26pt;
+          }
+    }
 </style>
