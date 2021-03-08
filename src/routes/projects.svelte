@@ -23,7 +23,7 @@
               <p class="proj-description">
                 A Hybrid Travel App, designed to reward users for visiting new
                 places with virtual collectable badges and statistics. (Currently
-                Pre-Release Alpha Build)
+                Pre-Release Alpha Build, not available in browser on release, use phone view)
               </p>
               <p class="proj-imgs">
                 <a href="https://github.com/odyssey-dev/Odyssey"
@@ -39,7 +39,7 @@
   
           <img src="img/portfolio/odyssey.png" alt="site icon"/>
           <h2>Odyssey</h2>
-          <p class="proj-type">Hybrid App (Svelte/Cordova)</p>
+          <p class="proj-type">Hybrid App (Svelte/Cordova/Firebase)</p>
         </li>
   
         <li id="proj1" class="portfolio-item">
@@ -47,7 +47,7 @@
             <div class="proj-on-hover-bg">
               <p class="proj-description">
                 A PWA made to help users gain inspiration for new pieces of art,
-                no matter the medium, with a prompt, image and description.
+                no matter the medium, with a prompt, image and description. (Primarily Mobile)
               </p>
               <p class="proj-imgs">
                 <a href="https://github.com/TLClassless/ArtistInspo"
@@ -133,6 +133,27 @@
               <h2>Carpet & Oven Wizard</h2>
               <p class="proj-type">Website (HTML/CSS/JS)</p>
         </li>
+
+        <li id="proj5" class="portfolio-item">
+          <div class="proj-on-hover">
+              <div class="proj-on-hover-bg">
+                <p class="proj-description">
+                  A Social Network platform for sharing your best gaming clips! This platform is currently in development.
+                </p>
+                <p class="proj-imgs">
+                  <a href="https://github.com/TLClassless/Blink"><img src="img/github.svg" alt="github"
+                  /></a>
+                  <span class="proj-divider">|</span>
+                  <a href="projects"
+                    ><img src="img/portfolio/www.svg" id ="unfinished" alt="live site"
+                  /></a>
+                </p>
+              </div>
+            </div>
+            <img id="blinkico" src="../img/portfolio/blink-ico.svg" alt="site icon"/>
+            <h2>Blink</h2>
+            <p class="proj-type">Social Network (Svelte/Firebase)</p>
+      </li>
         <!-- <li id="proj5" class="portfolio-item"></li>
         <li id="proj6" class="portfolio-item"></li> -->
       </ul>
@@ -173,6 +194,7 @@
         flex-wrap: wrap;
         align-content: center;
         justify-content: center;
+        max-width: 70rem;
         }
 
         .portfolio-item {
@@ -196,6 +218,7 @@
         .portfolio-item p {
         display: flex;
         align-items: center;
+        text-align: center;
         margin: 0;
         }
 
@@ -268,6 +291,10 @@
 
         .proj-divider {
         margin: 0 16px;
+        }
+
+        #blinkico {
+          width: 200px;
         }
 
         #proj0 {
@@ -359,16 +386,31 @@
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#434343', endColorstr='#5e216d',GradientType=0 );
         }
 
-        /* #proj5 {
-        background-color: darkslategray;
+        #proj5 {
+        background: #ff3e01;
+        background: -moz-linear-gradient(top, #ff3e01 0%, #ff8301 100%);
+        background: -webkit-gradient(
+            linear,
+            left top,
+            left bottom,
+            color-stop(0%, #ff3e01),
+            color-stop(100%, #ff8301)
+        );
+        background: -webkit-linear-gradient(top, #ff3e01 0%, #ff8301 100%);
+        background: -o-linear-gradient(top, #ff3e01 0%, #ff8301 100%);
+        background: -ms-linear-gradient(top, #ff3e01 0%, #ff8301 100%);
+        background: linear-gradient(to bottom, #ff3e01 0%, #ff8301 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3e01', endColorstr='#ff8301',GradientType=0 );
+
         }
 
-        #proj6 {
+        /* #proj6 {
         background-color: darksalmon;
         } */
 
         #unfinished {
         opacity: 40%;
+        cursor: default;
         }
 
         .br {
